@@ -64,8 +64,8 @@ def getDataArt(art):
     return res
 
 
-# with open("электродвигатель3.json", "w") as outfile:
-#     json.dump(result, outfile, ensure_ascii=False)
+with open("электродвигатель3.json", "w") as outfile:
+    json.dump(result, outfile, ensure_ascii=False)
     
 for art in arts:
     data = getDataArt(art)
